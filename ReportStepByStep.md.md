@@ -14,7 +14,6 @@
 
 &nbsp;	Dann Öffnest du die Console Anwendung zum formatieren der Sku's im Terminal
 
-&nbsp;	dotnet run C:\\Users\\nstrassguetl\\Documents\\SplitStringForHP
 
 
 
