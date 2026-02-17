@@ -1,9 +1,11 @@
 ﻿using TextCopy;
-
-Console.Clear();
-Console.WriteLine("Formatiere die Fehler Sku's und Lade in Clipboard:");
-Console.WriteLine(FormatSKU() );
-
+ Console.Clear();
+while (true)
+{
+   
+    Console.WriteLine("Formatiere die Sku's und Lade in Clipboard:");
+    Console.WriteLine(FormatSKU());
+}
 
 Console.WriteLine("\nFormatiere die Minus Bestand Sku's und Lade in Clipboard:\n");
 Console.WriteLine(FormatSKU());
@@ -37,7 +39,7 @@ string FormatSKU()
     {
         if (!string.IsNullOrEmpty(skuItem) && skuItem != "")
         {
-            //Console.Write($"{skuItem}|");
+            Console.Write($"{skuItem}|");
             AllSku += $"{skuItem}|";
         }
     }
