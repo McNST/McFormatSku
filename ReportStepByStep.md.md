@@ -60,7 +60,7 @@
 
 ###### **Schritt 5:**
 
-	suche wieder wie in **Schritt 3** bei **"HP Product Number"** die nun Formatierten Sku's raus und lösche alle. 
+&nbsp;	suche wieder wie in **Schritt 3** bei **"HP Product Number"** die nun Formatierten Sku's raus und lösche alle. 
 
 
 
@@ -68,15 +68,15 @@
 
 ###### **Schritt 6:**
 
-	gehe nun auf Transaction date und wähle **"Facet --> Custom Text Facet"**
+&nbsp; gehe nun auf Transaction date und wähle **"Facet --> Custom Text Facet"**
 
-	z.B. V1\_POS\_INV\_AMPLIFY\_RS70679\_**20260209\_20260215** Start und Enddatum kannst du dir aus dem Dateinamen entnehmen. 
+&nbsp;	z.B. V1\_POS\_INV\_AMPLIFY\_RS70679\_**20260209\_20260215** Start und Enddatum kannst du dir aus dem Dateinamen entnehmen. 
 
-	Paste folgenden Code: (erste Nummer Startdatum zweite Nummer Enddatum):
+&nbsp;	Paste folgenden Code: (erste Nummer Startdatum zweite Nummer Enddatum):
 
 &nbsp;	
 
-&nbsp;			*if(isBlank(value), false,*
+			*if(isBlank(value), false,*
 
  			 *if(value.toString() < "20260209", true,*
 
