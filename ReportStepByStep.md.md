@@ -76,15 +76,15 @@
 
 &nbsp;	
 
-			*if(isBlank(value), false,*
+			if(isBlank(value), false,
 
- 			 *if(value.toString() < "20260209", true,*
+ 			 if(value.toString() < "20260209", true,
 
-    			  *if(value.toString() > "20260215", true, false)*
+    			  if(value.toString() > "20260215", true, false)
 
-			 *)*
+			 )
 
-			*)*
+			)
 
 &nbsp;	
 
